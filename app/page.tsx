@@ -1,7 +1,11 @@
+import CourseList from "@/components/courses/courseList/courseList";
+
 export default function Home() {
   return (
-    <main>
-      <h1>Hello</h1>
-    </main>
+    <div className="container">
+      <div className="row">
+        <CourseList />
+      </div>
+    </div>
   );
 }

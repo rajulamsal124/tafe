@@ -31,20 +31,20 @@ const Hero = () => {
             }}
             spaceBetween={0}
             slidesPerView={1}
-            breakpoints={{
-              // when window width is >= 576px
-              450: {
-                slidesPerView: 1,
-              },
-              // when window width is >= 768px
-              768: {
-                slidesPerView: 1,
-              },
-              1200: {
-                // when window width is >= 992px
-                slidesPerView: 1,
-              },
-            }}
+            // breakpoints={{
+            //   // when window width is >= 576px
+            //   450: {
+            //     slidesPerView: 1,
+            //   },
+            //   // when window width is >= 768px
+            //   768: {
+            //     slidesPerView: 1,
+            //   },
+            //   1200: {
+            //     // when window width is >= 992px
+            //     slidesPerView: 1,
+            //   },
+            // }}
             speed={1200}
           >
             {slidesData.map((item, i) => (

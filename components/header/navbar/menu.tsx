@@ -16,14 +16,8 @@ interface Route {
 
 const Menu: React.FC<MenuProps> = ({ allClasses, headerPosition }) => {
   return (
-    <div className={`header-menu ${headerPosition ? headerPosition : ""}`}>
+    <div className="header-menu">
       <div className="header_menu__content">
-        <div className="d-none xl:d-flex items-center px-20 py-20 border-bottom-light">
-          <Link href="/login">Log in</Link>
-          <Link href="/signup" className="ml-30">
-            Sign Up
-          </Link>
-        </div>
         <div className="menu">
           <ul className={`navbar-nav ${allClasses ? allClasses : ""}`}>
             {routes.map((route: Route, index: number) => (
