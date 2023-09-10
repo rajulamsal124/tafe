@@ -8492,9 +8492,6 @@ h6 {
   margin: 0;
 }
 
-.input-counter input[type=number] {
-  -moz-appearance: textfield;
-}
 
 .input-counter__counter {
   z-index: 5;

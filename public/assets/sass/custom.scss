@@ -188,7 +188,7 @@
     transition: 0.5s;
   }
 .scaleOne{
-    // transform: scale(1) !important;
+    transform: scale(1) !important;
 }
 
 .whiteBg {
@@ -210,9 +210,6 @@
 
     }
    
-}
-.inActiveMenuTwo{
-    
 }
 .inActiveMegaMenu {
     color: var(--color-dark-1) !important;

@@ -54,10 +54,6 @@ export default function HeaderTwo() {
                     <Socials textSize={"text-11"} />
                   </div>
                 </div>
-
-                <div className="d-flex items-center text-white text-13 sm:d-none">
-                  English <i className="icon-chevron-down text-9 ml-10"></i>
-                </div>
               </div>
             </div>
           </div>
@@ -108,7 +104,7 @@ export default function HeaderTwo() {
                   </button>
                 </div>
               </div> */}
-{/* 
+              {/* 
               <div className="header-right__buttons d-flex items-center ml-30 xl:ml-20 md:d-none">
                 <Link href="/login" className="button -underline text-white">
                   Log in
