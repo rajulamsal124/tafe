@@ -8,7 +8,6 @@ import "swiper/css/pagination";
 import { useEffect, useState } from "react";
 
 import React from "react";
-import { featureTwo } from "../../../data/features";
 import { slidesData } from "../../../data/hero";
 import { useRouter } from "next/navigation";
 export default function HeroTwo() {
@@ -100,7 +99,6 @@ export default function HeroTwo() {
             </div>
           </div>
         </div>
-
         <div className="row y-gap-20 justify-center mainSlider__items">
           {/* {featureTwo.map((elm, i) => (
             <div key={i} className="col-xl-3 col-md-4 col-sm-6">

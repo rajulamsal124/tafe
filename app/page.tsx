@@ -4,9 +4,7 @@ import HeroTwo from "@/components/homes/heros/HeroTwo";
 import CoursesThree from "../components/homes/courses/CoursesThree";
 import FindLearningPath from "@/components/homes/FindLearningPath";
 import LearningSolutions from "../components/homes/LearningPath/LearningSolutions";
-import EventsOne from "@/components/homes/events/EventsOne";
 import CategoriesTwo from "@/components/homes/categories/CategoriesTwo";
-import Students from "@/components/homes/students/Students";
 import BecomeInstactor from "@/components/common/BecomeInstactor";
 import BecomeStudent from "../components/common/BecomeInstactor";
 import Brands from "@/components/common/Brands";
@@ -29,12 +27,7 @@ export default function page() {
         <CoursesThree />
         <FindLearningPath />
         <LearningSolutions />
-        {/* <EventsOne/> */}
         <CategoriesTwo />
-        {/* <Students/>
-        <BecomeInstactor/>
-        <BecomeStudent/>
-        <Brands/> */}
         <Footer />
       </div>
     </>
