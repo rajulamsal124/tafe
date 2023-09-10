@@ -5,7 +5,7 @@ import { states } from "@/data/dashboard";
 import { teamMembers } from "@/data/instractors";
 import { notifications } from "@/data/notifications";
 import React from "react";
-import FooterNine from "../layout/footers/FooterNine";
+import FooterCopyright from "../layout/footers/FooterCopyright";
 import Charts from "./Charts";
 import PieChartComponent from "./PieCharts";
 import Image from "next/image";
@@ -284,7 +284,7 @@ export default function DashboardOne() {
                           <div className="d-flex items-center">
                             <i className="icon-clock-2 text-16 mr-8"></i>
                             <div className="text-14 lh-1">{`${Math.floor(
-                              elm.duration / 60,
+                              elm.duration / 60
                             )}h ${Math.floor(elm.duration % 60)}m`}</div>
                           </div>
                         </div>
@@ -333,7 +333,7 @@ export default function DashboardOne() {
         </div>
       </div>
 
-      <FooterNine />
+      <FooterCopyright />
     </div>
   );
 }

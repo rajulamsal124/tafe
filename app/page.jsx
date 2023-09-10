@@ -11,7 +11,7 @@ import BecomeInstactor from "@/components/common/BecomeInstactor";
 import BecomeStudent from "../components/common/BecomeInstactor";
 import Brands from "@/components/common/Brands";
 
-import FooterTwo from "@/components/layout/footers/FooterTwo";
+import Footer from "@/components/layout/footers/Footer";
 import Preloader from "@/components/common/Preloader";
 export const metadata = {
   title:
@@ -35,7 +35,7 @@ export default function page() {
         <BecomeInstactor/>
         <BecomeStudent/>
         <Brands/> */}
-        <FooterTwo />
+        <Footer />
       </div>
     </>
   );

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import FooterNine from "../layout/footers/FooterNine";
+import FooterCopyright from "../layout/footers/FooterCopyright";
 import { coursesData } from "@/data/dashboard";
 import Pagination from "../common/Pagination";
 import CoursesCardDashboard from "./DashBoardCards/CoursesCardDashboard";
@@ -130,8 +130,9 @@ export default function MyCourses() {
                                 data-el-toggle-active=".js-category-active"
                               >
                                 <span className="js-dropdown-title">
-                                  {currentCategory != 'All Categories' ? currentCategory :'Categories' }
-                                  
+                                  {currentCategory != "All Categories"
+                                    ? currentCategory
+                                    : "Categories"}
                                 </span>
                                 <i className="icon text-9 ml-40 icon-chevron-down"></i>
                               </div>
@@ -145,7 +146,6 @@ export default function MyCourses() {
                                     <div
                                       onClick={() =>
                                         setCurrentCategory(item.label)
-                                        
                                       }
                                       key={ind}
                                       className={`d-block js-dropdown-link cursor ${
@@ -260,7 +260,7 @@ export default function MyCourses() {
         </div>
       </div>
 
-      <FooterNine />
+      <FooterCopyright />
     </div>
   );
 }

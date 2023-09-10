@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-import FooterNine from "@/components/layout/footers/FooterNine";
+import FooterCopyright from "@/components/layout/footers/FooterCopyright";
 import EventKeys from "./EventKeys";
 import MonthlyCalender from "./MonthlyViewCalender";
 import PageLinksTwo from "@/components/common/PageLinksTwo";
@@ -274,7 +274,7 @@ export default function Calender() {
         </div>
       </div>
 
-      <FooterNine />
+      <FooterCopyright />
     </div>
   );
 }

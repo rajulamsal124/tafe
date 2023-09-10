@@ -1,7 +1,7 @@
 import { coursesData } from "@/data/dashboard";
 import React from "react";
 import CourseCardTwoDash from "./DashBoardCards/CourseCardTwoDash";
-import FooterNine from "../layout/footers/FooterNine";
+import FooterCopyright from "../layout/footers/FooterCopyright";
 import Pagination from "../common/Pagination";
 
 export default function BookMarks() {
@@ -42,7 +42,7 @@ export default function BookMarks() {
         </div>
       </div>
 
-      <FooterNine />
+      <FooterCopyright />
     </div>
   );
 }

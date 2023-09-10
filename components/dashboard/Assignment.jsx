@@ -1,8 +1,9 @@
 "use client";
 import React from "react";
-import FooterNine from "../layout/footers/FooterNine";
+import FooterCopyright from "../layout/footers/FooterCopyright";
 import Link from "next/link";
 import PageLinksTwo from "../common/PageLinksTwo";
+import FooterCopyright from "../layout/footers/FooterCopyright";
 
 export default function Assignment() {
   return (
@@ -227,7 +228,7 @@ export default function Assignment() {
         </div>
       </div>
 
-      <FooterNine />
+      <FooterCopyright />
     </div>
   );
 }

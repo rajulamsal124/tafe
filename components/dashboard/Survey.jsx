@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import FooterNine from "../layout/footers/FooterNine";
+import FooterCopyright from "../layout/footers/FooterCopyright";
 import PageLinksTwo from "../common/PageLinksTwo";
 
 export default function Survey() {
@@ -228,7 +228,7 @@ export default function Survey() {
         </div>
       </div>
 
-      <FooterNine />
+      <FooterCopyright />
     </div>
   );
 }

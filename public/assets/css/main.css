@@ -4228,7 +4228,7 @@ h6 {
   line-height: 16px;
   color: white;
   padding: 12px 24px;
-  background-color: #6440FB;
+  background-color: var(--color-green-7);
   border-radius: 100px;
 }
 
@@ -7739,7 +7739,7 @@ h6 {
   width: 18px;
   height: 18px;
   stroke-width: 2;
-  color: var(--color-green-6);
+  color: var(--color-green-7);
   transition: all 0.2s ease-out;
 }
 

@@ -4,7 +4,7 @@ import { grades } from "@/data/dashboard";
 import { letters, alphabetItems } from "@/data/dictionary";
 
 import React, { useState, useEffect } from "react";
-import FooterNine from "../layout/footers/FooterNine";
+import FooterCopyright from "../layout/footers/FooterCopyright";
 import Image from "next/image";
 import PageLinksTwo from "../common/PageLinksTwo";
 
@@ -192,7 +192,7 @@ export default function Grades() {
         </div>
       </div>
 
-      <FooterNine />
+      <FooterCopyright />
     </div>
   );
 }

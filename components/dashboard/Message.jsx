@@ -1,6 +1,6 @@
 import { messageList } from "@/data/dashboard";
 import React from "react";
-import FooterNine from "../layout/footers/FooterNine";
+import FooterCopyright from "../layout/footers/FooterCopyright";
 import Image from "next/image";
 
 export default function Message() {
@@ -184,7 +184,7 @@ export default function Message() {
         </div>
       </div>
 
-      <FooterNine />
+      <FooterCopyright />
     </div>
   );
 }

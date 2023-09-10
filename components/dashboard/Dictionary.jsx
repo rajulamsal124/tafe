@@ -5,7 +5,7 @@ import { letters, alphabetItems } from "@/data/dictionary";
 import React, { useState, useEffect } from "react";
 import PageLinksTwo from "../common/PageLinksTwo";
 import Link from "next/link";
-import FooterNine from "../layout/footers/FooterNine";
+import FooterCopyright from "../layout/footers/FooterCopyright";
 
 export default function Dictionary() {
   const [currentLetter, setCurrentLetter] = useState("A");
@@ -190,7 +190,7 @@ export default function Dictionary() {
         </div>
       </div>
 
-      <FooterNine />
+      <FooterCopyright />
     </div>
   );
 }

@@ -3,7 +3,7 @@ import Preloader from "@/components/common/Preloader";
 
 import Contact from "@/components/contacts/Contact";
 
-import FooterTwo from "@/components/layout/footers/FooterTwo";
+import Footer from "@/components/layout/footers/Footer";
 import Header from "@/components/layout/headers/Header";
 import React from "react";
 export const metadata = {
@@ -23,7 +23,7 @@ export default function page() {
         <Contact />
         <Faq />
 
-        <FooterTwo />
+        <Footer />
       </div>
     </div>
   );

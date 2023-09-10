@@ -1,7 +1,7 @@
 import React from "react";
 import Links from "../component/Links";
 
-export default function FooterNine() {
+export default function FooterCopyright() {
   return (
     <footer className="footer">
       <div className="container">
@@ -18,10 +18,6 @@ export default function FooterNine() {
                 <div className="d-flex items-center flex-wrap x-gap-20">
                   <Links />
                 </div>
-
-                <button className="button -md -rounded bg-light-4 text-light-1 ml-30">
-                  English
-                </button>
               </div>
             </div>
           </div>

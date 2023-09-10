@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import FooterNine from "../layout/footers/FooterNine";
+import FooterCopyright from "../layout/footers/FooterCopyright";
 
 import PieChartComponent from "./PieCharts";
 import { activeUsers, coursesData, states, timeline } from "@/data/dashboard";
@@ -414,7 +414,7 @@ export default function DshbDashboard() {
                               <div className="d-flex items-center">
                                 <i className="icon-online-learning-1 text-15 mr-10"></i>
                                 <div className="text-13 lh-1">{`${Math.floor(
-                                  elm.duration / 60,
+                                  elm.duration / 60
                                 )}h ${Math.floor(elm.duration % 60)}m`}</div>
                               </div>
                             </div>
@@ -783,7 +783,7 @@ export default function DshbDashboard() {
         </div>
       </div>
 
-      <FooterNine />
+      <FooterCopyright />
     </div>
   );
 }

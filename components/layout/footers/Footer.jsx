@@ -5,7 +5,7 @@ import Link from "next/link";
 import Socials from "@/components/common/Socials";
 import FooterLinks from "../component/FooterLinks";
 import Links from "../component/Links";
-export default function FooterTwo() {
+export default function Footer() {
   const handleSubmit = (e) => {
     e.preventDefault();
   };
@@ -53,7 +53,9 @@ export default function FooterTwo() {
                 <form onSubmit={handleSubmit}>
                   <div className="form-group">
                     <input required type="text" placeholder="Email..." />
-                    <button type="submit">Submit</button>
+                    <button type="submit" className="button text-white">
+                      Submit
+                    </button>
                   </div>
                 </form>
               </div>
@@ -75,16 +77,6 @@ export default function FooterTwo() {
                   <div className="d-flex x-gap-15 text-white">
                     <Links />
                   </div>
-                </div>
-
-                <div>
-                  <Link
-                    href="#"
-                    className="button px-30 h-50 -dark-6 rounded-200 text-white"
-                  >
-                    <i className="icon-worldwide text-20 mr-15"></i>
-                    <span className="text-15">English</span>
-                  </Link>
                 </div>
               </div>
             </div>

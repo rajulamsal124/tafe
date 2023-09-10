@@ -2,7 +2,7 @@
 
 import { sections } from "@/data/adminitrationFeatures";
 import React, { useState } from "react";
-import FooterNine from "../layout/footers/FooterNine";
+import FooterCopyright from "../layout/footers/FooterCopyright";
 import Link from "next/link";
 import PageLinksTwo from "../common/PageLinksTwo";
 const tabs = [
@@ -81,7 +81,7 @@ export default function Administration() {
         </div>
       </div>
 
-      <FooterNine />
+      <FooterCopyright />
     </div>
   );
 }

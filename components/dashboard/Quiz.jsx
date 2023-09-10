@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import FooterNine from "../layout/footers/FooterNine";
+import FooterCopyright from "../layout/footers/FooterCopyright";
 import PageLinksTwo from "../common/PageLinksTwo";
 
 export default function Quiz() {
@@ -499,7 +499,7 @@ export default function Quiz() {
         </div>
       </div>
 
-      <FooterNine />
+      <FooterCopyright />
     </div>
   );
 }
