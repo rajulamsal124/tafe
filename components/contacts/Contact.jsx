@@ -8,7 +8,7 @@ export default function ContactTwo() {
   };
   return (
     <>
-      <section className="page-header -type-4 bg-beige-1">
+      <section className="page-header -type-4 bg-green-2">
         <div className="container">
           <div className="page-header__content">
             <div className="row">
@@ -106,7 +106,7 @@ export default function ContactTwo() {
                       type="submit"
                       name="submit"
                       id="submit"
-                      className="button -md -purple-1 text-white"
+                      className="button -md -green-6 text-white"
                     >
                       Send Message
                     </button>

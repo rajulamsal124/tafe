@@ -7390,7 +7390,7 @@ h6 {
 
 .page-header.-type-4 {
   position: relative;
-  margin-top: 90px;
+  /* margin-top: 90px; */
   padding-top: 210px;
   padding-bottom: 175px;
 }
@@ -7728,7 +7728,7 @@ h6 {
   flex-shrink: 0;
   width: 40px;
   height: 40px;
-  background-color: var(--color-light-7);
+  background-color: var(--color-green-2);
   border-radius: 100%;
   margin-right: 22px;
   transition: all 0.2s ease-out;
@@ -7739,7 +7739,7 @@ h6 {
   width: 18px;
   height: 18px;
   stroke-width: 2;
-  color: var(--color-purple-1);
+  color: var(--color-green-6);
   transition: all 0.2s ease-out;
 }
 
@@ -7754,7 +7754,7 @@ h6 {
 }
 
 .accordion.-block .accordion__item.is-active .accordion__icon {
-  background-color: var(--color-purple-1);
+  background-color: var(--color-green-6);
 }
 
 .accordion.-block .accordion__item.is-active .accordion__icon .icon {

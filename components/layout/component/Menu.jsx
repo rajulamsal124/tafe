@@ -37,22 +37,12 @@ export default function Menu({ allClasses, headerPosition }) {
     >
       <div className="header-menu__content">
         <div className="mobile-bg js-mobile-bg"></div>
-
-        {/* <div className="d-none xl:d-flex items-center px-20 py-20 border-bottom-light">
-          <Link href="/login" className="text-dark-1">
-            Log in
-          </Link>
-          <Link href="/signup" className="text-dark-1 ml-30">
-            Sign Up
-          </Link>
-        </div> */}
-
         <div className="menu js-navList">
           <ul className={`${allClasses ? allClasses : ""}`}>
             <li className="menu-item-has-children">
               <Link
                 data-barba
-                href="/home-2"
+                href="/"
                 className={menuItem == "Home" ? "activeMenu" : ""}
               >
                 Home
@@ -71,9 +61,9 @@ export default function Menu({ allClasses, headerPosition }) {
             <li>
               <Link
                 data-barba
-                href="/contact-1"
+                href="/contact"
                 className={
-                  pathname == "/contact-1" ? "activeMenu" : "inActiveMenuTwo"
+                  pathname == "/contact" ? "activeMenu" : "inActiveMenuTwo"
                 }
               >
                 Contact

@@ -15,7 +15,6 @@ export default function Header() {
 
   return (
     <>
-      
       <header className="header -type-1 container ">
         <div className="header__container">
           <div className="row justify-between items-center">
