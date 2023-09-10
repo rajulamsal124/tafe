@@ -15,7 +15,7 @@ import Footer from "@/components/layout/footers/Footer";
 import Preloader from "@/components/common/Preloader";
 export const metadata = {
   title:
-    "Home-2 || Tafegippsland - Professional LMS Online Education Course NextJS Template",
+    "Home || Tafegippsland - Professional LMS Online Education Course NextJS Template",
   description:
     "Elevate your e-learning content with Tafegippsland, the most impressive LMS template for online courses, education and LMS platforms.",
 };
